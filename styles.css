@@ -1,0 +1,125 @@
+/* Navbar */
+.navbar {
+  background-color: #ffffff; /* Couleur de fond */
+  padding: 20px 0; /* Remplissage */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Taille de police */
+  font-weight: bold; /* Poids de la police */
+  color: #333; /* Couleur du texte */
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* Couleur du texte */
+  margin-right: 20px; /* Marge entre les liens */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8c4d0e; /* Couleur du texte au survol */
+}
+
+/* Section principale */
+section {
+  padding: 50px 0; /* Remplissage */
+}
+
+.container {
+  max-width: 1200px; /* Largeur maximale */
+}
+
+/* Styles de texte */
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /* Couleur du texte */
+}
+
+p {
+  color: #666; /* Couleur du texte */
+  line-height: 1.6; /* Hauteur de ligne */
+}
+
+/* Boutons */
+.download-button, .explore-button {
+  background-color: #0022ff; /* Nouvelle couleur de fond bleue */
+  color: #fff; /* Nouvelle couleur du texte en blanc */
+  padding: 10px 20px; /* Remplissage */
+  border: none; /* Supprimer la bordure */
+  border-radius: 5px; /* Bordure arrondie */
+  cursor: pointer; /* Style de curseur */
+}
+
+.download-button:hover, .explore-button:hover {
+  background-color: #000ce6; /* Nouvelle couleur de fond bleue au survol */
+}
+
+/* Images */
+img {
+  max-width: 100%; /* Largeur maximale */
+  height: auto; /* Hauteur automatique */
+  display: block; /* Afficher en élément de bloc */
+  margin-bottom: 20px; /* Marge en bas */
+}
+
+/* Cartes */
+.card {
+  border: none; /* Supprimer la bordure */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.card-body {
+  padding: 20px; /* Remplissage */
+}
+
+.card-body h2 {
+  color: #333; /* Couleur du texte */
+}
+
+.card-body p {
+  color: #666; /* Couleur du texte */
+}
+
+/* Pied de page */
+footer {
+  background-color: #333; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  padding: 20px 0; /* Remplissage */
+  text-align: center; /* Alignement du texte */
+}
+
+
+/* Ajout de styles pour l'arrière-plan bleu */
+.background-blue {
+  background-color: blue; /* Changez la couleur en bleu selon vos préférences */
+  padding: 20px; /* Ajoutez un peu de marge autour de l'image */
+  border-radius: 10px; /* Arrondissez les coins pour un meilleur aspect */
+}
+
+/* Alignement horizontal des images dans le footer */
+.footer-images {
+  display: flex; /* Utilisez Flexbox pour aligner les éléments horizontalement */
+  justify-content: center; /* Centrez les éléments horizontalement */
+  align-items: center; /* Centrez les éléments verticalement */
+}
+
+
+/* Ajout d'un espacement entre les images du footer */
+.footer-images img {
+  margin: 0 10px; /* Ajoutez une marge de 10px autour de chaque image */
+}
+/* Boutons */
+.download-button {
+  background-color: blue; /* Bouton "Download CV" en bleu */
+  color: #fff; /* Texte en blanc */
+}
+
+.explore-button {
+  background-color: #fff; /* Bouton "Explore More" en blanc */
+  color: #000; /* Texte en noir */
+}
+
+/* Ajout de l'arrière-plan bleu derrière l'image d'accueil */
+.background-blue {
+  background-color: blue; /* Arrière-plan bleu */
+  padding: 20px; /* Ajout de marge autour de l'image */
+  border-radius: 10px; /* Coins arrondis */
+}

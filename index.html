@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>doc</title>
+    <style>
+        /* Navbar */
+        .navbar {
+            background-color:  rgb(176, 243, 240);
+        }
+
+        .navbar-brand {
+   
+            color: #333;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            margin-right: 20px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ff7f00;
+        }
+
+      
+
+        .container {
+            max-width: 1200px;
+        }
+
+        /* Text styles */
+        h1, h2, h3, h4, h5, h6 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Buttons */
+        .download-button {
+            background-color: blue; /* Bouton "Download CV" en bleu */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .explore-button {
+            background-color: #fff; /* Bouton "Explore More" en blanc */
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            background-color: #0044ff; /* Changement de couleur au survol */
+            border-radius: 15px;
+        }
+
+        .explore-button:hover {
+            background-color: #eee; /* Changement de couleur au survol */
+        }
+
+        /* Images */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        /* Cards */
+        .card {
+            border: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-body h2 {
+            color: #333;
+        }
+
+        .card-body p {
+            color: #666;
+        }
+
+        /* Projets - ajustement des images */
+        .project-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Alignement horizontal des images dans le footer */
+        .footer-images {
+            display: flex;
+            justify-content: flex-start; /* Alignement à gauche */
+            align-items: center;
+        }
+
+        /* Ajout d'un espacement entre les images du footer */
+        .footer-images img {
+            margin: 0 10px;
+        }
+
+        /* Ajout de styles pour l'arrière-plan bleu */
+        .background-blue {
+            background-color: rgb(176, 243, 240);
+            padding: 20px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .toff{
+            background-color: dodgerblue;
+            border-radius: 20px;
+        }
+        .contact{
+            background-color:  rgb(176, 243, 240)  ;
+        }
+        .ndou{
+            background-color: rgb(176, 243, 240)  ;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rizfan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container-fluid background-blue">
+            <div class="row">
+                <div class="col-md-8 mt-5">
+                    <h2>Hi Everyone I am,<br/><strong>Rizfan Herlaya</strong></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                        Mauris vitae maecenas pellentesque tellus tempus integer. Nunc nisi 
+                        fermentum.</p>
+                    <div class="button-container">
+                        <button class="download-button">Download CV</button>
+                        <button class="explore-button">Explore More</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5 background-blue"> 
+                    <img class="toff" id="ing" src="My project-1 (1) 2.png" alt="Image d'illustration" width="250px">
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img width="400px" src="Code typing-amico 1.png" alt="Image des compétences" > 
+                </div> 
+                <div class="col-md-6 mt-5">
+                    <div class="about-text mt-5">
+                        <p>About</p>
+                        <h2>About Me?</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ndou" id="skills"> 
+        <div class="row">
+            <div class="projet text-center">
+                <h2>Skill</h2>
+                <h1>What I am capable of?</h1>
+            </div>
+            <div class="col-md-2 mt-5">
+                <img class="project-image" src="bootstrap-logo 1.png" alt="Image des compétences" > 
+            </div> 
+            <div class="col-md-2 mt-5">
+                <img class="project-image" src="CSS-Logo 1.png" alt="Image des compétences" > 
+            </div> 
+            <div class="col-md-2 mt-5">
+                <img class="project-image" src="php_PNG31 1.png" alt="Image des compétences" > 
+            </div> 
+            <br>
+            <div class="col-md-2 mt-5">
+                <img class="project-image" src="logo_html 1.png" alt="Image des compétences" > 
+            </div> 
+            <div class="col-md-2 mt-5">
+                <img class="project-image" src="tailwindcss-logo 1.png" alt="Image des compétences" > 
+            </div>
+            <div class="col-md-2 mt-5">
+                <img class="project-image" src="laravel-logo 1.png" alt="Image des compétences" width="50px" height="50px" > 
+            </div>                             
+        </div>
+    </section>
+
+    <section id="projets">
+        <div class="row">
+            <div class="projet text-center">
+                <h2>Projects</h2>
+                <h1>What I have made?</h1>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="project-image" src="image 2.png" alt="Image des compétences">
+                    <div class="card-body">
+                        <h2>Porfolio Website Design</h2>
+                        <p class="card-text">Some quick example text to build<br/>
+                            Figma</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="project-image" src="image 3.png" alt="Image des compétences">
+                    <div class="card-body">
+                        <h2>LitterCycle Exchange</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.<br/>
+                            Live View<br>
+                            Github<br>
+                            Figma</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="project-image" src="image 4.png" alt="Image des compétences">
+                    <div class="card-body">
+                        <h2>LitterCycle Exchange</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.<br/>
+                            Live View<br>
+                            Github<br>
+                            Figma</p>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </section>
+
+    <br>
+
+    <section id="projets">
+        <div class="row">
+            <div class="projet text-center">
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="project-image" src="image 1.png" alt="Image des compétences">
+                    <div class="card-body">
+                        <h2>PPDB SMK Telesandi Bekasi</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.<br/>
+                            Live View</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="project-image" src="image 1.png" alt="Image des compétences">
+                    <div class="card-body">
+                        <h2>PPDB SMK Telesandi Bekasi</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.<br/>
+                            Live View</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="project-image" src="image 1.png" alt="Image des compétences">
+                    <div class="card-body">
+                        <h2>PPDB SMK Telesandi Bekasi</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.<br/>
+                            Live View</p>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </section>
+
+    <br>
+
+    <section class="contact" id="contact">       
+        <p>Contacts</p>
+        <h4>Get in touch</h4>
+        <div class="footer-images">
+        <img src="LinkedIn.png" alt="Image du projet">
+        <img src="Instagram.png" alt="Image du projet">
+        <img src="GitHub.png" alt="Image du projet"><br>
+        </div>
+        <p>DoudouthiamO6@gmail.com</p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
